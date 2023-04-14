@@ -1,0 +1,17 @@
+.fondo{
+    background-image:url(./img/tumblr.gif);
+    background-size: 100rem;
+  
+}
+
+.tamaño{
+    width: 45%;
+    margin-left: 28%;
+}
+
+main{
+    background-image: url(./img/rick\ and\ morty\ world.gif);
+    background-repeat: no-repeat;
+    background-size: 90rem;
+}
+

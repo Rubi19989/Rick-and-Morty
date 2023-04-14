@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assest/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./index.css">
+    <title>Api de Rick and Morty</title>
+</head>
+
+<body>
+    <main>
+        <img class="tamaño" src="./img/rick-and-morty.png" alt="Imagen de ricki and morty">
+
+        <div class="d-flex justify-content-center gap-2 ">
+            <button id="regresar"  class="p-2  text-dark border border-info rounded btn btn-outline-info">Regresar</button>
+            <button id="siguiente" class="p-2  text-dark border border-info rounded btn btn-outline-info" >Siguiente</button>
+        </div>
+        <div class="input-group my-4 justify-content-center ">
+            <input id="inputBuscar" type="text" class=" text-center btn btn-outline-dark" placeholder="Busca algun personaje"
+                style="height:3rem; width: 43rem;">
+            <button id="buscar" class="btn btn-outline-info" type="button" id="button-addon2">Buscar</button>
+        </div>
+        <div class="container-fluid">
+            <div id="container" class="row fondo fondo2">
+
+            </div>
+        </div>
+        <div class="card " style="width: 18rem; "></div>
+    </main>
+    <script src="./index.js"></script>
+</body>
+
+</html>
