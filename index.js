@@ -13,7 +13,7 @@ const dibujarCards = (results) =>{
     for(i=0; i< results.length; i++){
 
         let card =`
-        <div class = "col-3 text-center my-2  text-light">
+        <div class = "col-4 text-center my-2  text-light">
              <div class="card  bg-dark bg-opacity-10 " style="width: 18rem; ">
                  <img src="${results[i].image}" class="card-img-top" alt="Imagenes de ricki and morty"
                   style="width 4rem">
